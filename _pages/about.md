@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Patrick </strong> Beukema
-description: <a href="">Affiliations</a>. neuroscience Ph.D. Contacts. Moto. Etc.
+description: <a href="">Affiliations  neuroscience Ph.D. Contacts. Moto. Etc. s</a>
 
 profile:
   align: right
