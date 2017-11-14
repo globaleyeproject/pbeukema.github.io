@@ -7,7 +7,7 @@ description: Department of Neuroscience, University of Pittsburgh & CoAxLab, Car
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: 
     <p>436D Baker Hall, CMU</p>
     <p>Pittsburgh, PA 15201</p>
 
