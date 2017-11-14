@@ -2,22 +2,22 @@
 layout: about
 permalink: /
 title: <strong>Patrick </strong> Beukema
-description: <a href="">Carnegie Mellon University and the University of Pittsburgh<./a>
+description: <a href="">Department of Neuroscience, University of Pittsburgh & Carnegie Mellon University
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Washington D.C.</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>436D Baker Hall</p>
+    <p>Carnegie Mellon University</p>
+    <p>Pittsburgh, PA 15201</p>
 
 news: true
 social: true
 ---
 
-Hi! My name is Patrick Beukema. I am a 4th year PhD neuroscience student working in the [CoAx lab](http://www.psy.cmu.edu/~coaxlab/) at Carnegie Mellon University. My advisor is Timothy Verstynen. Previously, I earned an M.S. in formal symbolic logic at Carnegie Mellon University.    
+Hi! My name is Patrick Beukema. I am a 4th year neuroscience PhD student working in the [CoAx lab](http://www.psy.cmu.edu/~coaxlab/) at Carnegie Mellon University advised by [Dr. Timothy Verstynen](https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/verstynen-timothy.html). Previously, I earned an M.S. in formal symbolic logic at Carnegie Mellon University.    
 
-I am interested in the intersection of neurobiology and AI. I You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am broadly interested in the intersection of neurobiology and AI. My research involves decoding neural patterns of activity to better understand motor control. I am also very interested in the problem of reproducibility in biomedical research and neuroscience, and how we can improve the scientific resarch process. You can find my academic cv (here)[http://www.psy.cmu.edu/~coaxlab/resumes/beukema.pdf]. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Over the last year, I have been compiling advice for graduate students in neuroscience and recently turned what was a github repository into an easier to read [web page](https://pbeukema.github.io/LabHacks/) . 
