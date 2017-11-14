@@ -30,7 +30,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: patrick beukema
-blog_description: a simple whitespace theme for academics
+blog_description: neuroscience and ai
 
 # Pagination
 paginate: 4
