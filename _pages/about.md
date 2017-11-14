@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>436D Baker Hall</p>
-    <p>CMU</p>
+    <p>436D Baker Hall, CMU</p>
     <p>Pittsburgh, PA 15201</p>
 
 news: true
