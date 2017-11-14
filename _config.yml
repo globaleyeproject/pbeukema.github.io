@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Patrick Beukema 
+email: beuk.pat@gmail.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -10,17 +10,17 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+url: https://www.github.com/ # the base hostname & protocol for your site
+baseurl: /pbeukema.github.io # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # put your github username
+github_username: pbeukema # put your github username
 twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
+linkedin_username: patrickbeukema # put your linkedin username
+scholar_authorid: xm_zIxgAAAAJ&hl # put your google scholar author id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
@@ -29,7 +29,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
+blog_name: patrick beukema
 blog_description: a simple whitespace theme for academics
 
 # Pagination
@@ -43,7 +43,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: pbeukema # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
