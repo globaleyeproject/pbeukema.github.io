@@ -28,8 +28,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: patrick beukema
-blog_description: neuroscience and ai
+blog_name: NeuroLogical
+blog_description: neuroscience, logic, and ai
 
 # Pagination
 paginate: 4
