@@ -19,6 +19,4 @@ Hi! My name is Patrick Beukema. I am a 5th year PhD student at the Center for Ne
 
 Outside of my main research, I am interested in the problem of reproducibility in biomedical research & neuroscience, and how we can improve the scientific process. 
 
-Over the last year, I have been compiling advice for graduate students in neuroscience and recently turned what was a github repository into an easier to read [web page](https://pbeukema.github.io/LabHacks/). 
-
 I am also a very big fan of bicycles and believe that we should dramatically increase bicycling infrastructure throughout the United States. Drop me a line if you need pro-bono work done on anything data-oriented (e.g. machine learning/data-science) related to cycling advocacy.  
