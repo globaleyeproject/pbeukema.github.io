@@ -6,7 +6,7 @@ email: beuk.pat@gmail.com
 description: > # this means to ignore newlines until "url:"
   Hello
 footer_text: >
-  theme by <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  theme by <a href="https://github.com/alshedivat/al-folio">al-folio</a>
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url: # the base hostname & protocol for your site
