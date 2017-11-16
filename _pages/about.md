@@ -15,7 +15,7 @@ news: true
 social: true
 ---
 
-Hi! My name is Patrick Beukema. I am a 5th year PhD student at the Center for Neuroscience working in the CoAx labat Carnegie Mellon University advised by [Dr. Timothy Verstynen](http://www.psy.cmu.edu/~coaxlab/). My research involves decoding neural activity. Previously, I completed an M.S. in formal symbolic logic at Carnegie Mellon University. 
+Hi! My name is Patrick Beukema. I am a 5th year PhD student at the Center for Neuroscience working in the CoAx lab at Carnegie Mellon University advised by [Dr. Timothy Verstynen](http://www.psy.cmu.edu/~coaxlab/). My research involves decoding neural activity. Previously, I completed an M.S. in formal symbolic logic at Carnegie Mellon University. 
 
 You can see all of my work here: [CV](http://www.psy.cmu.edu/~coaxlab/resumes/beukema.pdf). 
 
