@@ -25,9 +25,7 @@ footer {
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
-  position: fixed;
-    left: 100px;
-    bottom: 0px;
+  text-align: center;
   width: 100%;
   a { color: #fff; }
   a:hover { color: $theme-color; }
