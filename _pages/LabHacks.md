@@ -4,7 +4,7 @@ permalink: /LabHacks/
 title: LabHacks
 description: Resources for data driven neuroscientists
 ---
-
+* [Open science](#open-science-opsci-essentials)
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
 * [Making figures nice](#generating-publication-quality-figures)    
@@ -20,7 +20,13 @@ description: Resources for data driven neuroscientists
 * [Meta Neuro Papers](#papers)  
 * [Survival Guides](#survival-guides)
 * [Science Blogs](#science-blogs)
-
+## Open science (opsci) essentials
+* For better or worse, you probably want a website at this stage of human evolution, where you can link to free pdfs of your manuscripts, reference code, publish datasets, point people to X project, etc. The fastest (<1 hr), simplest (4 steps), and most elegant way I have come across is through [github pages](https://pages.github.com) using [jekyll themes](http://jekyllthemes.org). The following steps walk you through hosting your new website on your github account, which you will create in step 1 if you don't already have one. N.B. You do not need to install anything locally on your machine (and it is likely preferable not to) regardless if you are using Linux, OSX or Windows. The following steps are sufficient.  
+    1. Sign up for [github](https://github.com) if you do not have an account.  
+    2. [Fork](https://help.github.com/articles/fork-a-repo/) a jekyll repository to get an academic template on your account (e.g. fork this [repo](https://github.com/alshedivat/al-folio) and your site will look like [this](https://pbeukema.github.io)). 
+    3. Rename the repository you just forked to [username].github.io. [username] is your username from step 1.  
+    4. Edit the data in the pages directory and config.yml files to suit your needs. 
+    * Go to your website (which will live at https://[username].github.io). 
 
 ## Data analysis
 * Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
@@ -76,6 +82,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ```
 
 ##  Generating publication quality figures
+* First read these [ten rules for better figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) (and accompanying [source code](https://github.com/rougier/ten-rules))
 * If you followed the programming advice above, you are now convinced that Python is your favorite language. Python has excellent data visualization built off [matplotlib](http://pbpython.com/effective-matplotlib.html) and a library called [seaborn](http://seaborn.pydata.org/index.html).
 
 * Use your plotting software of choice (e.g. seaborn) to get your figure as close to final as possible. Avoid having to make post-edits in illustrator/inkscape which can be a huge time sink as a graduate student.
@@ -93,7 +100,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 ##  Statistical analysis
 * If you are new to statistics, start [here](http://students.brown.edu/seeing-theory/) to grok the fundamentals.
 
-* See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts, because you haven't had enough.  
+* See this [tutorial](http://m-clark.github.io/documents/) on machine learning concepts.  
 
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
@@ -103,7 +110,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
   * How to proceed: [Abandon statistical thresholds](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
-  
+* Avoid doing ANOVAs in your analysis. Some statisticians don't even think ANOVA is taught anymore, but in fact it is, especially in biology programs. Instead of ANOVA use hierarchical aka mixed effect models. [Here](http://mfviz.com/hierarchical-models/) is a really beautiful demonstration of this concept.   
 * As soon as possible, understand:
   * [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) -- insanely powerful. 
   * [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) -- enables generalization
