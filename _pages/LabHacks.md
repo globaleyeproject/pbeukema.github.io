@@ -4,6 +4,7 @@ permalink: /LabHacks/
 title: LabHacks
 description: Resources for data driven neuroscientists
 ---
+## Table of Contents
 * [Open science](#open-science-opsci-essentials)
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
@@ -15,6 +16,7 @@ description: Resources for data driven neuroscientists
 * [Biophysical modeling](#biophysical-and-molecular-modeling)
 * [Lit search](#literature-search)  
 * [Writing papers](#writing-papers)   
+* [Giving talks](#giving-talks)   
 * [Grant Writing](#grant-writing)  
 * [Meetings](#meetings-with-your-pi)     
 * [Meta Neuro Papers](#papers)  
@@ -27,10 +29,17 @@ description: Resources for data driven neuroscientists
     3. Rename the repository you just forked to [username].github.io. [username] is your username from step 1.  
     4. Edit the data in the pages directory and config.yml files to suit your needs. 
     * Go to your website (which will live at https://[username].github.io). 
+    
+* [Standardize](https://github.com/drivendata/cookiecutter-data-science) your project structure. Share with your colleagues. Be transparent. Following two lines will get you set up. 
+```quick version
+pip install cookiecutter 
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+```
+    
+* Need to get a paper but behind a paywall? Try [here](https://sci-hub.bz).  
 
-## Data analysis
-* Start every new research project with a clear and universal directory structure for organizing your analysis, data and figures. [Here](http://nikola.me/folder_structure.html) is a template as an example you can follow for a transparent directory structure.  
 
+## Data analysis 
 * Download [Atom](https://atom.io/). It is a very powerful and free! editor that integrates nicely with github.
 Use it for writing text, markup, code, scripts, etc.
 
@@ -105,8 +114,8 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * Learn to love Bayesian statistics, if you don't already.
 [This](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/) is an introduction on bayesian vs. frequentist statistics written by [Jake Vanderplas](https://staff.washington.edu/jakevdp/), an astrophysicist and python developer.
 
-* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobio research, cognitive neuroscience and biomedical research:
-  * [Beyond the dead salmon talk](slides.com/neuro_logical/pvps): p-values, p-value problems, power in neuroscience, reproducibility crisis, replication, and strategies for overcoming these problems. 
+* Beware of p-values and null hypothesis significance testing (NHST) the de facto standard in neurobiology, cognitive neuroscience and much of biomedical research:
+  * [Beyond the dead salmon](https://slides.com/neuro_logical/pvps): talk on p-values and how it relates to the current reproducibility crisis and pragmatic approaches to the problem. 
   * Regina Nuzzo on how not to get fooled by p-values: [video](https://videocast.nih.gov/summary.asp?Live=26200&bhcp=1Read)
   * Problems with p-values: [1](http://ejwagenmakers.com/2007/pValueProblems.pdf) [2](https://peerj.com/articles/3544.pdf)
   * How to proceed: [Abandon statistical thresholds](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
@@ -161,8 +170,15 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 
 * If you are struggling to write scientific papers in word, e.g. embedding equations, consider using [Latex](https://www.latex-project.org) (pronounced "Lay-Tech"). Latex allows you to focus on writing rather than formatting.
 
+## Giving talks
+* You need to choose some medium of presenting your slides. It would be nice to always have access to them, to be able to share them with others who might not have your software (e.g. powerpoint) and to be easily viewable on mobile. [Here](http://slides.com) is one tool that meets those needs.  
+
+* It is very challgening to give high-quality talks and everyone struggles with it. A lot of academics do not receive training in how to give talks and do not know the most effective ways of presenting information - but this has been looked at! [Here](http://static.duarte.com/Slideology_Sample30.pdf) are some incredibly useful notes how to prepare the actual content of the slides, and here are some notes on the speaking portion. And [here](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ) is Susan McConnell from Stanford giving a talk on how to give a good scientific talk. 
+
 ##  fMRI
 * Know your neuroanatomy. Julian Caspers, a neuroradiologist, provided a great set of [guidelines](https://www.humanbrainmapping.org/files/2017/ED%20Courses/Course%20Materials/Anatomy_Caspers_Julian.pdf) at the 2017 Organization for Human Brain Mapping conference. You also may find this interactive [brain explorer](http://www.brainfacts.org/3D-Brain#intro=false&focus=Brain-cerebral_hemisphere-right) useful.
+
+* It is absolutely critical to know what kind of power you have and what you can conclude from the kind of analysis that you are doing. Here is a useful [guide](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184923). 
 
 * Standardize your imaging data set using the [BIDS format](http://bids.neuroimaging.io/) - this will make your data more accessible to both your collaborators and the field at large.
 
@@ -239,6 +255,7 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [@diedrichsenlab](https://twitter.com/diedrichsenlab) computational neuroimaging   
 * [@talyarkoni](https://twitter.com/talyarkoni?lang=en) imaging, meta 
 * [@flowingdata](https://twitter.com/flowingdata) data visualization
+* [@ShuhBillSkee](https://twitter.com/ShuhBillSkee) 
 ## Papers
 * [Neuroscience Needs Behavior](http://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf)
 * [Could a Neuroscientist Understand a Microprocessor](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
@@ -254,10 +271,12 @@ rsync -zavr -e ssh --delete --include '*/' --include='*include_these_files.[ext]
 * [How to pick a graduate advisor](http://www.sciencedirect.com/science/article/pii/S0896627313009070)
 * Learn how to learn with [this](https://www.coursera.org/learn/learning-how-to-learn) coursera course
 * Have a long look at this [Survival Guide](http://karpathy.github.io/2016/09/07/phd/) for PH.d students, by Andrej Karpathy, CS Ph.D, and the current director of AI at Tesla.
+* For U.S. graduate students especially at private institutions in 2018 and beyond, its likely going to become significantly more financially difficult because your tuition waiver is about to be considered taxable income, which means your take home pay will be reduced by some percentage (5-30%). Since personal finances are rarely addressed during the onboarding process, you must educate yourself. Here is course called [personal finance for engineers](https://cs007.blog/) from a 2017 course at Stanford.  
 * Ronald Azuma's [retrospective](http://www.cs.unc.edu/~azuma/hitch4.html) on graduate school
 * Randy Pausch on [time management](https://www.youtube.com/watch?v=oTugjssqOT0)
 * [Know when and when not to say No](https://web.archive.org/web/20170312041524/http:/www.brianwansink.com/phd-advice/the-grad-student-who-never-said-no)
 * Find (neuro)hackathons in your area and go to them. You get to meet all kinds of people and produce something at an incredibly fast rate, thanks to the symbiosis of working on a team. Can be especially refreshing if you are spending years on your projects. 
+* On making mistakes and being wrong. [Slides](https://www.slideshare.net/deevybishop/faillbility-in-science-responsible-ways-to-handle-mistakes) on Fallibility in science.  
 
 ## Science blogs
 * Mark Humphries will blow up your world at [the Spike](https://medium.com/the-spike)
