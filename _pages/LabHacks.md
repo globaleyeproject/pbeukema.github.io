@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /LabHacks/
-title: Resources for neuroscientists
+title: LabHacks 
 description: 
 ---
 * [Open science](#open-science-opsci-essentials)
