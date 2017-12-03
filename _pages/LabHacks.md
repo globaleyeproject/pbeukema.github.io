@@ -1,10 +1,9 @@
 ---
 layout: page
 permalink: /LabHacks/
-title: LabHacks
-description: Resources for data driven neuroscientists
+title: Resources for neuroscientists
+description: 
 ---
-## Table of Contents
 * [Open science](#open-science-opsci-essentials)
 * [Data Analysis](#data-analysis)   
 * [Programming](#programming)   
