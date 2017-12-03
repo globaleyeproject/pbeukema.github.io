@@ -30,11 +30,12 @@ description: Resources for data driven neuroscientists
     4. Edit the data in the pages directory and config.yml files to suit your needs. 
     * Go to your website (which will live at https://[username].github.io). 
     
-* [Standardize](https://github.com/drivendata/cookiecutter-data-science) your project structure. Share with your colleagues. Be transparent. Following two lines will get you set up. 
-```quick version
+* [Standardize](https://github.com/drivendata/cookiecutter-data-science) your project structure. Share with your colleagues. Be transparent. The following two lines will get you set up. 
+{% highlight c++ %} 
 pip install cookiecutter 
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
-```
+{% endhighlight %}
+
     
 * Need to get a paper but behind a paywall? Try [here](https://sci-hub.bz).  
 
