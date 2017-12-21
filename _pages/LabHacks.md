@@ -1,9 +1,8 @@
-----
 -layout: page		
 -permalink: /LabHacks/		
 -title: LabHacks 		
 -description: 		
-----
+
  
 * [Open science](#open-science-opsci-essentials)
 * [Data Analysis](#data-analysis)   
