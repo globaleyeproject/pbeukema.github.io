@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Patrick </strong> Beukema
-description: Center for Neuroscience, University of Pittsburgh & CoAxLab, Carnegie Mellon University
+description: 
 
 profile:
   align: right
