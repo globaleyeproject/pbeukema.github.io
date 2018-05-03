@@ -15,4 +15,4 @@ news: true
 social: true
 ---
 
-Hi! My name is Patrick Beukema. I am interested in research at the intesection of human learning and artificial intelligence, as well as in improving the reliability of biomedical research through open science. Previously I received a PhD in neuroscience from the Center for Neuroscience. My thesis examined the neural representational geometries associated with learning. Before that I worked on causal inference with recurrent neural nets at Carnegie Mellon University. Here is my [CV](http://nbviewer.jupyter.org/github/pbeukema/pbeukema.github.io/blob/master/resume.pdf). 
+Hi! My name is Patrick Beukema. I am interested in research at the intesection of human learning, AI, and open science. Previously I completed a PhD in neuroscience from the Center for Neuroscience (U. Pitt) and the Center for the Neural Basis of Cognition (Carnegie Mellon). My thesis examined the neural representational geometries underlying plasticity. Before that I worked on how causal inference could be encoded within recurrent neural networks. [CV](http://nbviewer.jupyter.org/github/pbeukema/pbeukema.github.io/blob/master/resume.pdf). 
